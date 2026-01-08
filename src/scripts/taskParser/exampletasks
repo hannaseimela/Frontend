@@ -1,0 +1,81 @@
+# Task 1
+
+## Task Instructions
+
+> This is a task. Here are the instructions. Do the task as instructed. Once done, proceed to the next part by clicking done below.
+
+> ![](exampleimage.png)
+
+> This is another paragraph in the task instructions. Maybe you have some extra hints or troubleshooting instructions that you'd like to put here?
+
+# Questionnaire 1
+
+## Introduction
+
+> This is an introductory paragraph to the following questionnaire. Maybe the image below is somehow related to the task?
+
+> ![](exampleimage.png)
+
+## Survey
+
+> How many times did you attempt the task?
+
+    $number
+
+> What did you think of the task?
+
+    $likert;
+    1; 7;
+    very bad; very good
+
+> How confident are you in your ability to do at least as well next time?
+
+    $slider;
+    0; 100;
+    Not at all confident; Extremely confident
+
+> How do you feel right now?
+
+    $text
+
+# Task 2
+
+> This is a second task. Here are the instructions. Do the task as instructed. Once done, proceed to the next part by clicking done below.
+
+# Questionnaire 2
+
+> What did you think of the task?
+
+    $text
+
+> What do you think could be improved?
+
+    $text
+
+> Have you done something similar before?
+
+    $option;
+    yes;
+    no;
+    maybe;
+    other
+
+> Do you have any general thoughts you'd like to share?
+
+    $textarea
+
+%% RANDOMIZED
+
+# Random Question 1
+
+> What is your favourite color?
+
+$text
+
+# Random Question 2
+
+> What was the name of your childhood pet?
+
+$text
+
+%%

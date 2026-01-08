@@ -1,0 +1,18 @@
+{
+  "name": "taskparser",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Parsing questionnaires to JS objects from human-readable markdown-like text files.",
+  "main": "taskParser.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "author": "Aalto Engineering Psychology Group / otsha",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
